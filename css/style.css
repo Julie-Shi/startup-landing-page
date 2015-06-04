@@ -7,7 +7,7 @@ html {
 
 body {
     width: 100%;
-    background-color: LightGray;
+    background-color: #fff;
     margin: 0px;
     padding: 0px;
     top: 0;
@@ -84,8 +84,10 @@ li:hover {
   top: 15em;
   width: 700px;
   height: 300px;
-  margin: 0 auto;
-  border: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
 }
 
 h1, h3 {
@@ -97,17 +99,55 @@ h1, h3 {
 
 h1 {
   font-size: 3.3em;
-  color: #e1421f;
+  color: #fff;
 }
 
 h3 {
   font-size: 1.5em;
   color: #fff;
+
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    margin-top: 20px;
+    background-color: #e1421f;
+    color: #fff;
+    font-size: 1em;
 }
 
 
+.cases {
+  margin-top: 5em;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  width: 50em;
+  height: 40em;
+}
 
+.child-box {
+  display: inline-block;
+  margin: 1em;
+}
 
+.cases h2 {
+  font-size: 2em;
+  font-weight: 200;  
+
+}
+
+.cases h3 {
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #000;
+}
 
 
 
