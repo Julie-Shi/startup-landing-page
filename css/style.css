@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    background-color: LightGray;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:0;
+  margin: 0px;
+  padding: 0px;
+  height: 5em;
+  background-color: #fff;
+  z-index: 5;
+  
+
+}
+
+.logo {
+  position: absolute;
+  left: 20%;
+  
+
+}
+
+nav div {
+  width: 970px;
+  height: 70px;
+  margin: 0px auto;
+  
+}
+
+ul {
+  float: right;
+  
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 2em;
+  line-height: 3em;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+}
+
+.active {
+  color: #4c5058;
+  font-weight: 600;
+}
+
+li:hover {
+  color: #e1421f;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.header-photo {
+  height: 50em;
+  background-image: url(../images/background-karma.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom; 
+
+}
+
+.header-text{
+  position: relative;
+  top: 15em;
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 200;
+
+}
+
+h1 {
+  font-size: 3.3em;
+  color: #e1421f;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
